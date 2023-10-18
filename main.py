@@ -77,6 +77,7 @@ def display_response(response):
     response_text.insert(tk.END, json_str)
     status_code_label.config(text=f"Status Code: {response.status_code} {response.reason}")
 
+
 # Buttons
 button_frame = tk.Frame(root)
 button_frame.pack()
